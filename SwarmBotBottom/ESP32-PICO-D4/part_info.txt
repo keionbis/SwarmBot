@@ -1,0 +1,9 @@
+Manufacturer=Espressif
+PartNumber=ESP32-PICO-D4
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=49
+Version=4.1
+Released=2017-11-24 11:03:34
+Downloaded=2019-10-23 01:29:57
+3D=N

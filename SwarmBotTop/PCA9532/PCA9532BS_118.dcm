@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9532BS,118
+D I2C Bus LED Dimmer 24Pin HVQFN EP NXP PCA9532BS,118, LED Driver, 24-Pin HVQFN
+K
+F https://www.nxp.com/docs/en/data-sheet/PCA9532.pdf
+$ENDCMP
+#
+#End Doc Library

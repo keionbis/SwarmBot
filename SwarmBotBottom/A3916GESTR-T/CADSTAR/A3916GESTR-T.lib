@@ -1,0 +1,18 @@
+.A3916GESTR-T :1 ;ALLEGRO MICROSYSTEMS - A3916GESTR-T - MOTOR DRIVER, STEPPER/DC, QFN-16
+QFN50P300X300X75-17N-D
+*STM IC
+*NGS
+*PLB 1="GND" 2="SLEEPN" 3="IN1" 4="IN2" 5="IN3" 6="IN4" 7="FAULTN" 8="OUT2A" 9="SENSE2" 10="OUT2B" 11="VBB" 12="OUT1B" 13="SENSE1" 14="OUT1A" 15="VCP" 16="NC" 17="EP"
+*MXP 17
+*DFN A3916GESTR-T
+~!Manufacturer_Name (Allegro Microsystems)
+~!Manufacturer_Part_Number (A3916GESTR-T)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://eagle.componentsearchengine.com/Datasheets/2/A3916GESTR-T.pdf)
+~!Height (0.75mm)
+~!3D_Model (A3916GESTR-T)
+A3916GESTR-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

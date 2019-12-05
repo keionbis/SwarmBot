@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ESP32-PICO-D4_1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ESP32-PICO-D4_1")
+        (spec "default")
+    )
+)

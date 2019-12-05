@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 2450AT18B100E
+#
+DEF 2450AT18B100E ANT 0 40 Y Y 1 L N
+F0 "ANT" -180 140 50 H V L BNN
+F1 "2450AT18B100E" -200 -400 50 H V L BNN
+F2 "ANT_2450AT18B100E" 0 0 50 H I L BNN
+F3 "ANTENNA, CERAMIC, 2.45GHZ; Bandwidth: 100MHz; Frequency: 2.45GHz; Gain: -0.5dB; Impedance: 50ohm" 0 0 50 H I L BNN
+F4 "Johanson Technology" 0 0 50 H I L BNN
+F5 "2450AT18B100E" 0 0 50 H I L BNN
+F6 "https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AT18B100E/712-1006-1-ND/1560835?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "712-1006-1-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 100 0 100 N
+P 2 0 0 10 0 100 100 100 N
+P 2 0 0 10 100 100 0 -100 N
+P 2 0 0 10 0 -100 -100 100 N
+P 2 0 0 10 0 -100 0 -200 N
+P 2 0 0 10 0 -100 0 100 N
+X 1 1 0 -200 200 U 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

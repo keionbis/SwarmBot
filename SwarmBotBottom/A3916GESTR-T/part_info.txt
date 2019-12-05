@@ -1,0 +1,9 @@
+Manufacturer=Allegro Microsystems
+PartNumber=A3916GESTR-T
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=17
+Version=1.1
+Released=2019-10-04 09:20:29
+Downloaded=2019-10-23 02:14:49
+3D=Y

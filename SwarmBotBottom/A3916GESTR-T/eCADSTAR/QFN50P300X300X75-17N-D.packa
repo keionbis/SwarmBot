@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "A3916GESTR-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-04-09:20:29)
+    (mountForm default
+        (footprintRef "QFN50P300X300X75-17N-D")
+        (spec "System")
+    )
+)

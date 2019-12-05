@@ -1,0 +1,450 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DB341F0
+P 1100 1050
+F 0 "H3" H 1200 1096 50  0000 L CNN
+F 1 "MountingHole" H 1200 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1100 1050 50  0001 C CNN
+F 3 "~" H 1100 1050 50  0001 C CNN
+	1    1100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DB344E5
+P 1100 1350
+F 0 "H4" H 1200 1396 50  0000 L CNN
+F 1 "MountingHole" H 1200 1305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1100 1350 50  0001 C CNN
+F 3 "~" H 1100 1350 50  0001 C CNN
+	1    1100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DB34EA7
+P 1100 1650
+F 0 "H5" H 1200 1696 50  0000 L CNN
+F 1 "MountingHole" H 1200 1605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1100 1650 50  0001 C CNN
+F 3 "~" H 1100 1650 50  0001 C CNN
+	1    1100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5DB34EAD
+P 1100 1950
+F 0 "H6" H 1200 1996 50  0000 L CNN
+F 1 "MountingHole" H 1200 1905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1100 1950 50  0001 C CNN
+F 3 "~" H 1100 1950 50  0001 C CNN
+	1    1100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5DB352A7
+P 1100 2200
+F 0 "H7" H 1200 2246 50  0000 L CNN
+F 1 "MountingHole" H 1200 2155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1100 2200 50  0001 C CNN
+F 3 "~" H 1100 2200 50  0001 C CNN
+	1    1100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5DB352AD
+P 1100 2500
+F 0 "H8" H 1200 2546 50  0000 L CNN
+F 1 "MountingHole" H 1200 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1100 2500 50  0001 C CNN
+F 3 "~" H 1100 2500 50  0001 C CNN
+	1    1100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J6
+U 1 1 5DB38531
+P 1350 4900
+F 0 "J6" V 1515 4830 50  0000 C CNN
+F 1 "Conn_01x08_Female" V 1424 4830 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 1350 4900 50  0001 C CNN
+F 3 "~" H 1350 4900 50  0001 C CNN
+	1    1350 4900
+	0    -1   -1   0   
+$EndComp
+Text Label 1350 5100 3    50   ~ 0
+A1
+Text Label 1250 5100 3    50   ~ 0
+A2
+Text Label 1050 5100 3    50   ~ 0
+B1
+Text Label 1150 5100 3    50   ~ 0
+B2
+Text Label 1450 5100 3    50   ~ 0
+A1_2
+Text Label 1550 5100 3    50   ~ 0
+A2_2
+Text Label 1750 5100 3    50   ~ 0
+B1_2
+Text Label 1650 5100 3    50   ~ 0
+B2_2
+$Comp
+L Battery_Management:MCP73831-2-OT U4
+U 1 1 5DB2A010
+P 9700 4800
+F 0 "U4" H 9300 5150 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 9250 5050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9750 4550 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 9550 4750 50  0001 C CNN
+	1    9700 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4900 10300 4900
+$Comp
+L Device:R R18
+U 1 1 5DB2ACB5
+P 10450 4900
+F 0 "R18" V 10243 4900 50  0000 C CNN
+F 1 "R" V 10334 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10380 4900 50  0001 C CNN
+F 3 "~" H 10450 4900 50  0001 C CNN
+	1    10450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5DB2BA71
+P 10750 4900
+F 0 "D2" H 10743 5116 50  0000 C CNN
+F 1 "LED" H 10743 5025 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10750 4900 50  0001 C CNN
+F 3 "~" H 10750 4900 50  0001 C CNN
+	1    10750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0169
+U 1 1 5DB2C28F
+P 10900 4900
+F 0 "#PWR0169" H 10900 4750 50  0001 C CNN
+F 1 "+5V" V 10915 5028 50  0000 L CNN
+F 2 "" H 10900 4900 50  0001 C CNN
+F 3 "" H 10900 4900 50  0001 C CNN
+	1    10900 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10100 4900 10100 5150
+Wire Wire Line
+	10100 5150 10200 5150
+Connection ~ 10100 4900
+$Comp
+L Device:R R17
+U 1 1 5DB2CD6A
+P 10350 5150
+F 0 "R17" V 10143 5150 50  0000 C CNN
+F 1 "R" V 10234 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10280 5150 50  0001 C CNN
+F 3 "~" H 10350 5150 50  0001 C CNN
+	1    10350 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5DB2DA34
+P 10650 5150
+F 0 "D1" H 10643 4895 50  0000 C CNN
+F 1 "LED" H 10643 4986 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10650 5150 50  0001 C CNN
+F 3 "~" H 10650 5150 50  0001 C CNN
+	1    10650 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 5DB2E3BF
+P 10800 5150
+F 0 "#PWR0170" H 10800 4900 50  0001 C CNN
+F 1 "GND" H 10805 4977 50  0000 C CNN
+F 2 "" H 10800 5150 50  0001 C CNN
+F 3 "" H 10800 5150 50  0001 C CNN
+	1    10800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5DB2EACD
+P 10100 4550
+F 0 "C21" H 10215 4596 50  0000 L CNN
+F 1 "C" H 10215 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10138 4400 50  0001 C CNN
+F 3 "~" H 10100 4550 50  0001 C CNN
+	1    10100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0171
+U 1 1 5DB2F3F5
+P 10100 4700
+F 0 "#PWR0171" H 10100 4550 50  0001 C CNN
+F 1 "+BATT" V 10115 4828 50  0000 L CNN
+F 2 "" H 10100 4700 50  0001 C CNN
+F 3 "" H 10100 4700 50  0001 C CNN
+	1    10100 4700
+	0    1    1    0   
+$EndComp
+Connection ~ 10100 4700
+$Comp
+L power:GND #PWR0172
+U 1 1 5DB2FC7E
+P 10100 4400
+F 0 "#PWR0172" H 10100 4150 50  0001 C CNN
+F 1 "GND" H 10105 4227 50  0000 C CNN
+F 2 "" H 10100 4400 50  0001 C CNN
+F 3 "" H 10100 4400 50  0001 C CNN
+	1    10100 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 4500 9700 4050
+$Comp
+L Device:C C20
+U 1 1 5DB30775
+P 9550 4050
+F 0 "C20" V 9298 4050 50  0000 C CNN
+F 1 "C" V 9389 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9588 3900 50  0001 C CNN
+F 3 "~" H 9550 4050 50  0001 C CNN
+	1    9550 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0173
+U 1 1 5DB30FD0
+P 9700 4050
+F 0 "#PWR0173" H 9700 3900 50  0001 C CNN
+F 1 "+5V" H 9715 4223 50  0000 C CNN
+F 2 "" H 9700 4050 50  0001 C CNN
+F 3 "" H 9700 4050 50  0001 C CNN
+	1    9700 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 9700 4050
+$Comp
+L power:GND #PWR0174
+U 1 1 5DB31616
+P 9400 4050
+F 0 "#PWR0174" H 9400 3800 50  0001 C CNN
+F 1 "GND" H 9405 3877 50  0000 C CNN
+F 2 "" H 9400 4050 50  0001 C CNN
+F 3 "" H 9400 4050 50  0001 C CNN
+	1    9400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4900 9200 4900
+$Comp
+L Device:R R15
+U 1 1 5DB321C4
+P 9050 4900
+F 0 "R15" V 8843 4900 50  0000 C CNN
+F 1 "R" V 8934 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8980 4900 50  0001 C CNN
+F 3 "~" H 9050 4900 50  0001 C CNN
+	1    9050 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5DB3268B
+P 9050 5200
+F 0 "R16" V 8843 5200 50  0000 C CNN
+F 1 "R" V 8934 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8980 5200 50  0001 C CNN
+F 3 "~" H 9050 5200 50  0001 C CNN
+	1    9050 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0175
+U 1 1 5DB32EED
+P 8900 5300
+F 0 "#PWR0175" H 8900 5050 50  0001 C CNN
+F 1 "GND" H 8905 5127 50  0000 C CNN
+F 2 "" H 8900 5300 50  0001 C CNN
+F 3 "" H 8900 5300 50  0001 C CNN
+	1    8900 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5300 8900 5200
+Connection ~ 8900 5200
+Wire Wire Line
+	8900 5200 8900 4900
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5DB34BFA
+P 9200 5100
+F 0 "JP1" V 9154 5148 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 9245 5148 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9200 5100 50  0001 C CNN
+F 3 "~" H 9200 5100 50  0001 C CNN
+	1    9200 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 5000 9200 4900
+Connection ~ 9200 4900
+$Comp
+L power:GND #PWR0176
+U 1 1 5DB358CA
+P 9700 5100
+F 0 "#PWR0176" H 9700 4850 50  0001 C CNN
+F 1 "GND" H 9705 4927 50  0000 C CNN
+F 2 "" H 9700 5100 50  0001 C CNN
+F 3 "" H 9700 5100 50  0001 C CNN
+	1    9700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5DEA75D7
+P 1150 3400
+F 0 "J1" V 1212 3544 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 1303 3544 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 1150 3400 50  0001 C CNN
+F 3 "~" H 1150 3400 50  0001 C CNN
+	1    1150 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5DEA7B38
+P 1150 4050
+F 0 "J2" V 1212 4194 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 1303 4194 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 1150 4050 50  0001 C CNN
+F 3 "~" H 1150 4050 50  0001 C CNN
+	1    1150 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR0101
+U 1 1 5DEA87B2
+P 950 3600
+F 0 "#PWR0101" H 950 3450 50  0001 C CNN
+F 1 "+BATT" H 965 3773 50  0000 C CNN
+F 2 "" H 950 3600 50  0001 C CNN
+F 3 "" H 950 3600 50  0001 C CNN
+	1    950  3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+BATT #PWR0102
+U 1 1 5DEA88DE
+P 950 4250
+F 0 "#PWR0102" H 950 4100 50  0001 C CNN
+F 1 "+BATT" H 965 4423 50  0000 C CNN
+F 2 "" H 950 4250 50  0001 C CNN
+F 3 "" H 950 4250 50  0001 C CNN
+	1    950  4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DEA8D14
+P 1250 3600
+F 0 "#PWR0103" H 1250 3350 50  0001 C CNN
+F 1 "GND" H 1255 3427 50  0000 C CNN
+F 2 "" H 1250 3600 50  0001 C CNN
+F 3 "" H 1250 3600 50  0001 C CNN
+	1    1250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DEA8F9E
+P 1250 4250
+F 0 "#PWR0104" H 1250 4000 50  0001 C CNN
+F 1 "GND" H 1255 4077 50  0000 C CNN
+F 2 "" H 1250 4250 50  0001 C CNN
+F 3 "" H 1250 4250 50  0001 C CNN
+	1    1250 4250
+	1    0    0    -1  
+$EndComp
+Text Label 1050 3600 3    50   ~ 0
+M1STEP
+Text Label 1150 3600 3    50   ~ 0
+M1DIR
+Text Label 1050 4250 3    50   ~ 0
+M2STEP
+Text Label 1150 4250 3    50   ~ 0
+M2DIR
+$Sheet
+S 5450 1400 750  850 
+U 5DEAE9FD
+F0 "MotorDrive" 50
+F1 "MotorDriver.sch" 50
+F2 "DIR" I L 5450 1550 50 
+F3 "STEP" I L 5450 1750 50 
+F4 "A1" I R 6200 1600 50 
+F5 "A2" I R 6200 1700 50 
+F6 "B1" I R 6200 1800 50 
+F7 "B2" I R 6200 1900 50 
+$EndSheet
+$Sheet
+S 5450 2600 750  850 
+U 5DEAF8AB
+F0 "sheet5DEAF8A9" 50
+F1 "MotorDriver.sch" 50
+F2 "DIR" I L 5450 2800 50 
+F3 "STEP" I L 5450 3000 50 
+F4 "A1" I R 6200 2750 50 
+F5 "A2" I R 6200 2850 50 
+F6 "B1" I R 6200 2950 50 
+F7 "B2" I R 6200 3050 50 
+$EndSheet
+Text Label 6200 1600 0    50   ~ 0
+A1
+Text Label 6200 1700 0    50   ~ 0
+A2
+Text Label 6200 1800 0    50   ~ 0
+B1
+Text Label 6200 1900 0    50   ~ 0
+B2
+Text Label 6200 2750 0    50   ~ 0
+A1_2
+Text Label 6200 2850 0    50   ~ 0
+A2_2
+Text Label 6200 2950 0    50   ~ 0
+B1_2
+Text Label 6200 3050 0    50   ~ 0
+B2_2
+Text Label 5450 3000 2    50   ~ 0
+M2STEP
+Text Label 5450 1750 2    50   ~ 0
+M1STEP
+Text Label 5450 1550 2    50   ~ 0
+M1DIR
+Text Label 5450 2800 2    50   ~ 0
+M2DIR
+$EndSCHEMATC
