@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VEML6040A3OG
+D VISHAY - VEML6040A3OG - COLOUR SENSOR, 3.6V, 16BIT, DIGITAL
+K
+F http://www.vishay.com/docs/84276/veml6040.pdf
+$ENDCMP
+#
+#End Doc Library

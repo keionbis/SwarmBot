@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/kbisland/SwarmBot/SwarmBotTop/SwarmBot.sch</source>
+    <date>Sun 08 Dec 2019 01:05:15 AM EST</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SwarmBot.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TopBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Programmer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MotorDriver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Sheet5DAF9EB0/Accelerometer/" tstamps="/5DAF9EB1/5DE7582A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Accelerometer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Sheet5DAF9EB0/Camera/" tstamps="/5DAF9EB1/5DE8908A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Camera.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LEDS.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>ESP32-PICO-D4</value>
+      <footprint>ESP32-PICO-D4:ESP32-PICO-D4_1</footprint>
+      <datasheet>http://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Description">ESP32-PICO-D4 module</field>
+        <field name="Manufacturer_Name">Espressif</field>
+        <field name="Manufacturer_Part_Number">ESP32-PICO-D4</field>
+        <field name="Mouser Part Number">356-ESP32-PICO-D4</field>
+      </fields>
+      <libsource lib="SwarmBot-rescue" part="ESP32-PICO-D4-ESP32-PICO-D4" description=""/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DAFA981</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DAFD096</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DAFD2F2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1.2pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DAFF6E8</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.7nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB0015E</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB19F98</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB1A171</tstamp>
+    </comp>
+    <comp ref="ANT1">
+      <value>2450AT18B100E</value>
+      <footprint>2450AT18B100E:ANT_2450AT18B100E</footprint>
+      <datasheet>ANTENNA, CERAMIC, 2.45GHZ; Bandwidth: 100MHz; Frequency: 2.45GHz; Gain: -0.5dB; Impedance: 50ohm</datasheet>
+      <fields>
+        <field name="Field4">Johanson Technology</field>
+        <field name="Field5">2450AT18B100E</field>
+        <field name="Field6">https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AT18B100E/712-1006-1-ND/1560835?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field7">None</field>
+        <field name="Field8">712-1006-1-ND</field>
+      </fields>
+      <libsource lib="SwarmBot-rescue" part="2450AT18B100E-2450AT18B100E" description=""/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB607E6</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB12F71</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB139FC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB13DF6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB1913A</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_Open</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_KXT3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push_Open" description="Push button switch, push-to-open, generic, two pins"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB2E19C</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_Open</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_KXT3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push_Open" description="Push button switch, push-to-open, generic, two pins"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB2E91D</tstamp>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB371B3</tstamp>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB371B9</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB9198B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DB9DF84</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DE7ADFC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DE7C99C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DE7CB78</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>3.3nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Sheet5DAF9EB0/" tstamps="/5DAF9EB1/"/>
+      <tstamp>5DE6CA93</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CP2102N-A01-GQFN24</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <libsource lib="Interface_USB" part="CP2102N-A01-GQFN24" description="USB to UART master bridge, QFN-24"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE5FDF6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE5FE02</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE5FE09</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE645B5</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE645BC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE645C5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE645CD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5366-3.3YC5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</datasheet>
+      <libsource lib="SwarmBot-rescue" part="MIC5366-3.3YC5-Regulator_Linear" description=""/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE67C39</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE67C40</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE67C47</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex_47346-0001</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/Sheet5DAF9EB0/Programmer/" tstamps="/5DAF9EB1/5DE5FC55/"/>
+      <tstamp>5DE69123</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STSPIN220</value>
+      <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/stspin220.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="STSPIN220" description="Low voltage stepper motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE73FE9</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE7927A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE792A2</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE7980C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE79862</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE798BA</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE79A1E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE79B51</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE79BA7</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>200m</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE7A68A</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>200m</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE7A78F</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/MotorDriver/" tstamps="/5DAF9EB1/5DE73556/"/>
+      <tstamp>5DE80E70</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Accelerometer/" tstamps="/5DAF9EB1/5DE7582A/"/>
+      <tstamp>5DE767FA</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Accelerometer/" tstamps="/5DAF9EB1/5DE7582A/"/>
+      <tstamp>5DE76801</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LIS2DH</value>
+      <footprint>Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="LIS2DH" description="3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface"/>
+      <sheetpath names="/Sheet5DAF9EB0/Accelerometer/" tstamps="/5DAF9EB1/5DE7582A/"/>
+      <tstamp>5DEDAC08</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MIC5366-3.3YC5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</datasheet>
+      <libsource lib="SwarmBot-rescue" part="MIC5366-3.3YC5-Regulator_Linear" description=""/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DE77316</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DE7731D</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DE77324</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DE77DAD</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MIC5366-2.8YC5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</datasheet>
+      <libsource lib="SwarmBot-rescue" part="MIC5366-3.3YC5-Regulator_Linear" description=""/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DECC031</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DECC037</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DECC03D</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MIC5366-1.3YC5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</datasheet>
+      <libsource lib="SwarmBot-rescue" part="MIC5366-3.3YC5-Regulator_Linear" description=""/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DECD37C</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DECD382</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Power/" tstamps="/5DAF9EB1/5DE76BA6/"/>
+      <tstamp>5DECD388</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x24_Female</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x24_Female" description="Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5DAF9EB0/Camera/" tstamps="/5DAF9EB1/5DE8908A/"/>
+      <tstamp>5DE89F78</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Camera/" tstamps="/5DAF9EB1/5DE8908A/"/>
+      <tstamp>5DE9001E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/Camera/" tstamps="/5DAF9EB1/5DE8908A/"/>
+      <tstamp>5DE91D34</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_BGRA</value>
+      <footprint>LED_SMD:LED_Kingbright_AAA3528ESGCT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_BGRA" description="RGB LED, blue/green/red/anode"/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DED12E1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_BGRA</value>
+      <footprint>LED_SMD:LED_Kingbright_AAA3528ESGCT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_BGRA" description="RGB LED, blue/green/red/anode"/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DED1B7E</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_BGRA</value>
+      <footprint>LED_SMD:LED_Kingbright_AAA3528ESGCT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_BGRA" description="RGB LED, blue/green/red/anode"/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DED2600</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>PCA9532BS,118</value>
+      <footprint>Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/PCA9532.pdf</datasheet>
+      <fields>
+        <field name="Description">I2C Bus LED Dimmer 24Pin HVQFN EP NXP PCA9532BS,118, LED Driver, 24-Pin HVQFN</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PCA9532BS,118</field>
+        <field name="Mouser Part Number">771-PCA9532BS118</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCA9532BS118</field>
+        <field name="RS Part Number">7275674P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7275674P</field>
+      </fields>
+      <libsource lib="SwarmBot-rescue" part="PCA9532BS,118-PCA9532BS_118" description=""/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DED59B9</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DED8DA7</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DED9148</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DED93B0</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5DAF9EB0/LEDS/" tstamps="/5DAF9EB1/5DED0A15/"/>
+      <tstamp>5DEDD42C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x24_Female">
+      <description>Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x24_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_BGRA">
+      <description>RGB LED, blue/green/red/anode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_BGRA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="RK" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="STSPIN220">
+      <description>Low voltage stepper motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package</description>
+      <docs>www.st.com/resource/en/datasheet/stspin220.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STSPIN220</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIR" type="input"/>
+        <pin num="2" name="STCK" type="input"/>
+        <pin num="3" name="OUTA1" type="power_out"/>
+        <pin num="4" name="SENSEA" type="power_out"/>
+        <pin num="5" name="OUTA2" type="power_out"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OUTB2" type="power_out"/>
+        <pin num="9" name="SENSEB" type="power_out"/>
+        <pin num="10" name="OUTB1" type="power_out"/>
+        <pin num="11" name="REF" type="input"/>
+        <pin num="12" name="TOFF" type="input"/>
+        <pin num="13" name="EN/FLT" type="BiDi"/>
+        <pin num="14" name="STBY/RESET" type="input"/>
+        <pin num="15" name="MODE2" type="input"/>
+        <pin num="16" name="MODE1" type="input"/>
+        <pin num="17" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-A01-GQFN24">
+      <description>USB to UART master bridge, QFN-24</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-A01-GQFN24</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RI/CLK" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="D-" type="BiDi"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~RSTb" type="input"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="GPIO.3" type="BiDi"/>
+        <pin num="12" name="GPIO.2" type="BiDi"/>
+        <pin num="13" name="GPIO.1" type="BiDi"/>
+        <pin num="14" name="GPIO.0" type="BiDi"/>
+        <pin num="15" name="~SUSPENDb" type="output"/>
+        <pin num="16" name="NC" type="NotConnected"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="CTS" type="input"/>
+        <pin num="19" name="RTS" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="DSR" type="input"/>
+        <pin num="23" name="DTR" type="output"/>
+        <pin num="24" name="DCD" type="input"/>
+        <pin num="25" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="LIS2DH">
+      <description>3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface</description>
+      <docs>http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf</docs>
+      <footprints>
+        <fp>LGA-*_2x2mm_P0.35mm*LayoutBorder3x4y*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LIS2DH</field>
+        <field name="Footprint">Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL/SPC" type="input"/>
+        <pin num="2" name="SDA/SDI" type="BiDi"/>
+        <pin num="3" name="SA0/SDO" type="BiDi"/>
+        <pin num="4" name="~CS" type="input"/>
+        <pin num="5" name="INT2" type="output"/>
+        <pin num="6" name="INT1" type="output"/>
+        <pin num="7" name="Vdd_IO" type="power_in"/>
+        <pin num="8" name="Vdd" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SwarmBot-rescue" part="2450AT18B100E-2450AT18B100E">
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">2450AT18B100E-2450AT18B100E</field>
+        <field name="Footprint">ANT_2450AT18B100E</field>
+        <field name="Datasheet">ANTENNA, CERAMIC, 2.45GHZ; Bandwidth: 100MHz; Frequency: 2.45GHz; Gain: -0.5dB; Impedance: 50ohm</field>
+        <field name="Field4">Johanson Technology</field>
+        <field name="Field5">2450AT18B100E</field>
+        <field name="Field6">https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AT18B100E/712-1006-1-ND/1560835?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field7">None</field>
+        <field name="Field8">712-1006-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SwarmBot-rescue" part="ESP32-PICO-D4-ESP32-PICO-D4">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP32-PICO-D4-ESP32-PICO-D4</field>
+        <field name="Footprint">ESP32-PICO-D4_1</field>
+        <field name="Datasheet">http://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf</field>
+        <field name="Description">ESP32-PICO-D4 module</field>
+        <field name="Manufacturer_Name">Espressif</field>
+        <field name="Manufacturer_Part_Number">ESP32-PICO-D4</field>
+        <field name="Mouser Part Number">356-ESP32-PICO-D4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDA_1" type="unspc"/>
+        <pin num="2" name="LNA_IN" type="unspc"/>
+        <pin num="3" name="VDDA3P3_1" type="unspc"/>
+        <pin num="4" name="VDDA3P3_2" type="unspc"/>
+        <pin num="5" name="SENSOR_VP" type="unspc"/>
+        <pin num="6" name="SENSOR_CAPP" type="unspc"/>
+        <pin num="7" name="SENSOR_CAPN" type="unspc"/>
+        <pin num="8" name="SENSOR_VN" type="unspc"/>
+        <pin num="9" name="EN" type="unspc"/>
+        <pin num="10" name="IO34" type="unspc"/>
+        <pin num="11" name="IO35" type="unspc"/>
+        <pin num="12" name="IO32" type="unspc"/>
+        <pin num="13" name="IO33" type="unspc"/>
+        <pin num="14" name="IO25" type="unspc"/>
+        <pin num="15" name="IO26" type="unspc"/>
+        <pin num="16" name="IO27" type="unspc"/>
+        <pin num="17" name="IO14" type="unspc"/>
+        <pin num="18" name="IO12" type="unspc"/>
+        <pin num="19" name="VDD3P3_RTC" type="unspc"/>
+        <pin num="20" name="IO13" type="unspc"/>
+        <pin num="21" name="IO15" type="unspc"/>
+        <pin num="22" name="IO2" type="unspc"/>
+        <pin num="23" name="IO0" type="unspc"/>
+        <pin num="24" name="IO4" type="unspc"/>
+        <pin num="25" name="IO16" type="unspc"/>
+        <pin num="26" name="VDD_SDIO_NC" type="unspc"/>
+        <pin num="27" name="IO17" type="unspc"/>
+        <pin num="28" name="SD2" type="unspc"/>
+        <pin num="29" name="SD3" type="unspc"/>
+        <pin num="30" name="CMD" type="unspc"/>
+        <pin num="31" name="CLK" type="unspc"/>
+        <pin num="32" name="SD0" type="unspc"/>
+        <pin num="33" name="SD1" type="unspc"/>
+        <pin num="34" name="IO5" type="unspc"/>
+        <pin num="35" name="IO18" type="unspc"/>
+        <pin num="36" name="IO23" type="unspc"/>
+        <pin num="37" name="VDD3P3_CPU" type="unspc"/>
+        <pin num="38" name="IO19" type="unspc"/>
+        <pin num="39" name="IO22" type="unspc"/>
+        <pin num="40" name="U0RXD" type="unspc"/>
+        <pin num="41" name="U0TXD" type="unspc"/>
+        <pin num="42" name="IO21" type="unspc"/>
+        <pin num="43" name="VDDA_2" type="unspc"/>
+        <pin num="44" name="XTAL_N_NC" type="unspc"/>
+        <pin num="45" name="XTAL_P_NC" type="unspc"/>
+        <pin num="46" name="VDDA_3" type="unspc"/>
+        <pin num="47" name="CAP2_NC" type="unspc"/>
+        <pin num="48" name="CAP1_NC" type="unspc"/>
+        <pin num="49" name="GND" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SwarmBot-rescue" part="MIC5366-3.3YC5-Regulator_Linear">
+      <footprints>
+        <fp>SOT*353*SC*70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5366-3.3YC5-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SwarmBot-rescue" part="PCA9532BS,118-PCA9532BS_118">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PCA9532BS,118-PCA9532BS_118</field>
+        <field name="Footprint">QFN50P400X400X100-25N-D</field>
+        <field name="Datasheet">https://www.nxp.com/docs/en/data-sheet/PCA9532.pdf</field>
+        <field name="Description">I2C Bus LED Dimmer 24Pin HVQFN EP NXP PCA9532BS,118, LED Driver, 24-Pin HVQFN</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PCA9532BS,118</field>
+        <field name="Mouser Part Number">771-PCA9532BS118</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCA9532BS118</field>
+        <field name="RS Part Number">7275674P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7275674P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+        <pin num="3" name="~" type="unspc"/>
+        <pin num="4" name="~" type="unspc"/>
+        <pin num="5" name="~" type="unspc"/>
+        <pin num="6" name="~" type="unspc"/>
+        <pin num="7" name="~" type="unspc"/>
+        <pin num="8" name="~" type="unspc"/>
+        <pin num="9" name="~" type="unspc"/>
+        <pin num="10" name="~" type="unspc"/>
+        <pin num="11" name="~" type="unspc"/>
+        <pin num="12" name="~" type="unspc"/>
+        <pin num="13" name="~" type="unspc"/>
+        <pin num="14" name="~" type="unspc"/>
+        <pin num="15" name="~" type="unspc"/>
+        <pin num="16" name="~" type="unspc"/>
+        <pin num="17" name="~" type="unspc"/>
+        <pin num="18" name="~" type="unspc"/>
+        <pin num="19" name="~" type="unspc"/>
+        <pin num="20" name="~" type="unspc"/>
+        <pin num="21" name="~" type="unspc"/>
+        <pin num="22" name="~" type="unspc"/>
+        <pin num="23" name="~" type="unspc"/>
+        <pin num="24" name="~" type="unspc"/>
+        <pin num="25" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_Open">
+      <description>Push button switch, push-to-open, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>/usr/share/kicad/library/Driver_Motor.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/usr/share/kicad/library/Interface_USB.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/usr/share/kicad/library/Sensor_Motion.lib</uri>
+    </library>
+    <library logical="SwarmBot-rescue">
+      <uri>/home/kbisland/SwarmBot/SwarmBotTop/SwarmBot-rescue.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="6"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C16" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U4" pin="9"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="15"/>
+      <node ref="L1" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="5"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC2" pin="9"/>
+      <node ref="IC2" pin="25"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J6" pin="15"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="IC2" pin="23"/>
+      <node ref="IC2" pin="24"/>
+      <node ref="IC2" pin="22"/>
+      <node ref="IC1" pin="49"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="3" name="/Sheet5DAF9EB0/RMOTDIR">
+      <node ref="J2" pin="3"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="4" name="/Sheet5DAF9EB0/RMOTSTEP">
+      <node ref="J2" pin="2"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="5" name="/Sheet5DAF9EB0/LMOTDIR">
+      <node ref="J1" pin="3"/>
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="6" name="/Sheet5DAF9EB0/B2_3">
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="7" name="/Sheet5DAF9EB0/B1_3">
+      <node ref="J3" pin="3"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="8" name="/Sheet5DAF9EB0/A2_3">
+      <node ref="J3" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="9" name="/Sheet5DAF9EB0/A1_3">
+      <node ref="J3" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad48)">
+      <node ref="IC1" pin="48"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad47)">
+      <node ref="IC1" pin="47"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad45)">
+      <node ref="IC1" pin="45"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad44)">
+      <node ref="IC1" pin="44"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad30)">
+      <node ref="IC1" pin="30"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad29)">
+      <node ref="IC1" pin="29"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad28)">
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad33)">
+      <node ref="IC1" pin="33"/>
+    </net>
+    <net code="18" name="/Sheet5DAF9EB0/IO0">
+      <node ref="IC1" pin="23"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="19" name="/Sheet5DAF9EB0/PENDIR">
+      <node ref="U3" pin="2"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="20" name="/Sheet5DAF9EB0/PENSTEP">
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="21" name="/Sheet5DAF9EB0/EN">
+      <node ref="Q2" pin="3"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="22" name="/Sheet5DAF9EB0/TX">
+      <node ref="U1" pin="20"/>
+      <node ref="IC1" pin="41"/>
+    </net>
+    <net code="23" name="/Sheet5DAF9EB0/RX">
+      <node ref="IC1" pin="40"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="25" name="Net-(IC1-Pad25)">
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="26" name="Net-(IC1-Pad31)">
+      <node ref="IC1" pin="31"/>
+    </net>
+    <net code="27" name="Net-(IC1-Pad32)">
+      <node ref="IC1" pin="32"/>
+    </net>
+    <net code="28" name="/Sheet5DAF9EB0/Camera/PDWN">
+      <node ref="J6" pin="8"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="29" name="/Sheet5DAF9EB0/Camera/RESET">
+      <node ref="J6" pin="6"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="30" name="/Sheet5DAF9EB0/SDA">
+      <node ref="U4" pin="2"/>
+      <node ref="IC2" pin="20"/>
+      <node ref="IC1" pin="42"/>
+    </net>
+    <net code="31" name="/Sheet5DAF9EB0/SCL">
+      <node ref="IC2" pin="19"/>
+      <node ref="U4" pin="1"/>
+      <node ref="IC1" pin="39"/>
+    </net>
+    <net code="32" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(ANT1-Pad1)">
+      <node ref="ANT1" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C2-Pad2)">
+      <node ref="L2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="35" name="/Sheet5DAF9EB0/IO37">
+      <node ref="IC1" pin="6"/>
+      <node ref="J6" pin="14"/>
+    </net>
+    <net code="36" name="/Sheet5DAF9EB0/IO14">
+      <node ref="IC1" pin="17"/>
+      <node ref="J6" pin="22"/>
+    </net>
+    <net code="37" name="/Sheet5DAF9EB0/IO13">
+      <node ref="IC1" pin="20"/>
+      <node ref="J6" pin="21"/>
+    </net>
+    <net code="38" name="/Sheet5DAF9EB0/IO34">
+      <node ref="IC1" pin="10"/>
+      <node ref="J6" pin="19"/>
+    </net>
+    <net code="39" name="/Sheet5DAF9EB0/IO35">
+      <node ref="IC1" pin="11"/>
+      <node ref="J6" pin="20"/>
+    </net>
+    <net code="40" name="/Sheet5DAF9EB0/IO25">
+      <node ref="J6" pin="17"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="41" name="/Sheet5DAF9EB0/IO38">
+      <node ref="IC1" pin="7"/>
+      <node ref="J6" pin="16"/>
+    </net>
+    <net code="42" name="/Sheet5DAF9EB0/IO4">
+      <node ref="IC1" pin="24"/>
+      <node ref="J6" pin="13"/>
+    </net>
+    <net code="43" name="/Sheet5DAF9EB0/IO27">
+      <node ref="IC1" pin="16"/>
+      <node ref="J6" pin="9"/>
+    </net>
+    <net code="44" name="/Sheet5DAF9EB0/S_VN">
+      <node ref="J6" pin="18"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="45" name="/Sheet5DAF9EB0/S_VP">
+      <node ref="J6" pin="12"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="46" name="+3V3">
+      <node ref="IC1" pin="19"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="J6" pin="11"/>
+      <node ref="U6" pin="3"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="IC1" pin="43"/>
+      <node ref="IC1" pin="46"/>
+      <node ref="R19" pin="2"/>
+      <node ref="IC2" pin="18"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="IC2" pin="21"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C21" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="37"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="47" name="/Sheet5DAF9EB0/LMOTSTEP">
+      <node ref="IC1" pin="21"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(IC1-Pad26)">
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad38)">
+      <node ref="IC1" pin="38"/>
+    </net>
+    <net code="50" name="/Sheet5DAF9EB0/SCL1">
+      <node ref="IC1" pin="36"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="51" name="/Sheet5DAF9EB0/SDA1">
+      <node ref="J6" pin="3"/>
+      <node ref="IC1" pin="35"/>
+    </net>
+    <net code="52" name="/Sheet5DAF9EB0/IO5">
+      <node ref="J6" pin="7"/>
+      <node ref="IC1" pin="34"/>
+    </net>
+    <net code="53" name="Net-(C16-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="55" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="56" name="/Sheet5DAF9EB0/Programmer/DTR">
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="57" name="Net-(Q1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="58" name="/Sheet5DAF9EB0/Programmer/RTS">
+      <node ref="U1" pin="19"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="59" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="60" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="61" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="62" name="/Sheet5DAF9EB0/Programmer/D_P">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="63" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="64" name="/Sheet5DAF9EB0/Programmer/D_N">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="65" name="+5V">
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="66" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="67" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="73" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="76" name="Net-(C10-Pad1)">
+      <node ref="U3" pin="11"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="78" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="79" name="Net-(R12-Pad1)">
+      <node ref="U3" pin="12"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="80" name="Net-(C11-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="81" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="82" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="83" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="84" name="+1V35">
+      <node ref="J6" pin="10"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="85" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="86" name="+2V8">
+      <node ref="U6" pin="5"/>
+      <node ref="C19" pin="1"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="87" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="88" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="89" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="90" name="Net-(J6-Pad24)">
+      <node ref="J6" pin="24"/>
+    </net>
+    <net code="91" name="Net-(J6-Pad23)">
+      <node ref="J6" pin="23"/>
+    </net>
+    <net code="92" name="Net-(IC2-Pad11)">
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="93" name="Net-(IC2-Pad12)">
+      <node ref="IC2" pin="12"/>
+    </net>
+    <net code="94" name="Net-(IC2-Pad13)">
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="95" name="Net-(IC2-Pad14)">
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="96" name="Net-(D3-Pad4)">
+      <node ref="R19" pin="1"/>
+      <node ref="D3" pin="4"/>
+    </net>
+    <net code="97" name="/Sheet5DAF9EB0/LEDS/L3">
+      <node ref="IC2" pin="17"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="98" name="/Sheet5DAF9EB0/LEDS/L4">
+      <node ref="D2" pin="2"/>
+      <node ref="IC2" pin="16"/>
+    </net>
+    <net code="99" name="/Sheet5DAF9EB0/LEDS/L5">
+      <node ref="IC2" pin="15"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="100" name="/Sheet5DAF9EB0/LEDS/L7">
+      <node ref="D3" pin="2"/>
+      <node ref="IC2" pin="10"/>
+    </net>
+    <net code="101" name="/Sheet5DAF9EB0/LEDS/L0">
+      <node ref="IC2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="102" name="/Sheet5DAF9EB0/LEDS/L2">
+      <node ref="D1" pin="3"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D2-Pad4)">
+      <node ref="R18" pin="1"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="104" name="Net-(D1-Pad4)">
+      <node ref="R17" pin="1"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="105" name="/Sheet5DAF9EB0/LEDS/L6">
+      <node ref="IC2" pin="7"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="106" name="/Sheet5DAF9EB0/LEDS/L8">
+      <node ref="IC2" pin="8"/>
+      <node ref="D3" pin="3"/>
+    </net>
+    <net code="107" name="Net-(IC2-Pad6)">
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="108" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="109" name="Net-(IC2-Pad4)">
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="110" name="/Sheet5DAF9EB0/LEDS/L1">
+      <node ref="IC2" pin="3"/>
+      <node ref="D1" pin="2"/>
+    </net>
+  </nets>
+</export>
