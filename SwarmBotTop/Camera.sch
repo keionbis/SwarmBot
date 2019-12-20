@@ -14,107 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x24_Female J6
-U 1 1 5DE89F78
-P 2550 1250
-F 0 "J6" V 2715 1180 50  0000 C CNN
-F 1 "Conn_01x24_Female" V 2624 1180 50  0000 C CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal" H 2550 1250 50  0001 C CNN
-F 3 "~" H 2550 1250 50  0001 C CNN
-	1    2550 1250
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 3750 1450
-NoConn ~ 3650 1450
-NoConn ~ 1450 1450
-$Comp
-L power:GND #PWR0167
-U 1 1 5DE8C289
-P 2850 1450
-F 0 "#PWR0167" H 2850 1200 50  0001 C CNN
-F 1 "GND" H 2855 1277 50  0000 C CNN
-F 2 "" H 2850 1450 50  0001 C CNN
-F 3 "" H 2850 1450 50  0001 C CNN
-	1    2850 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0169
-U 1 1 5DE8C618
-P 1550 1450
-F 0 "#PWR0169" H 1550 1200 50  0001 C CNN
-F 1 "GND" H 1555 1277 50  0000 C CNN
-F 2 "" H 1550 1450 50  0001 C CNN
-F 3 "" H 1550 1450 50  0001 C CNN
-	1    1550 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+2V8 #PWR0170
-U 1 1 5DE8CB15
-P 1750 1450
-F 0 "#PWR0170" H 1750 1300 50  0001 C CNN
-F 1 "+2V8" H 1765 1623 50  0000 C CNN
-F 2 "" H 1750 1450 50  0001 C CNN
-F 3 "" H 1750 1450 50  0001 C CNN
-	1    1750 1450
-	-1   0    0    1   
-$EndComp
-Text HLabel 1650 1450 3    50   Input ~ 0
-SDA
-Text HLabel 1850 1450 3    50   Input ~ 0
-SCL
-Text HLabel 1950 1450 3    50   Input ~ 0
-RESET
-Text HLabel 2050 1450 3    50   Input ~ 0
-VSYNC
-Text HLabel 2150 1450 3    50   Input ~ 0
-PDWN
-Text HLabel 2250 1450 3    50   Input ~ 0
-HREF
-$Comp
-L power:+1V35 #PWR0171
-U 1 1 5DE8D87F
-P 2350 1450
-F 0 "#PWR0171" H 2350 1300 50  0001 C CNN
-F 1 "+1V35" H 2365 1623 50  0000 C CNN
-F 2 "" H 2350 1450 50  0001 C CNN
-F 3 "" H 2350 1450 50  0001 C CNN
-	1    2350 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0172
-U 1 1 5DE8DDE0
-P 2450 1450
-F 0 "#PWR0172" H 2450 1300 50  0001 C CNN
-F 1 "+3.3V" H 2465 1623 50  0000 C CNN
-F 2 "" H 2450 1450 50  0001 C CNN
-F 3 "" H 2450 1450 50  0001 C CNN
-	1    2450 1450
-	-1   0    0    1   
-$EndComp
-Text HLabel 2550 1450 3    50   Input ~ 0
-Y9
-Text HLabel 2650 1450 3    50   Input ~ 0
-XCLK
-Text HLabel 2750 1450 3    50   Input ~ 0
-Y8
-Text HLabel 2950 1450 3    50   Input ~ 0
-Y7
-Text HLabel 3050 1450 3    50   Input ~ 0
-PCKL
-Text HLabel 3150 1450 3    50   Input ~ 0
-Y6
-Text HLabel 3350 1450 3    50   Input ~ 0
-Y5
-Text HLabel 3250 1450 3    50   Input ~ 0
-Y2
-Text HLabel 3450 1450 3    50   Input ~ 0
-Y3
-Text HLabel 3550 1450 3    50   Input ~ 0
-Y4
-$Comp
 L Device:R R1
 U 1 1 5DE9001E
 P 2250 3550
@@ -162,4 +61,109 @@ F 3 "" H 3250 3650 50  0001 C CNN
 	1    3250 3650
 	-1   0    0    1   
 $EndComp
+NoConn ~ 5000 2350
+NoConn ~ 6100 950 
+$Comp
+L power:GND #PWR0167
+U 1 1 5DFE7493
+P 5400 950
+F 0 "#PWR0167" H 5400 700 50  0001 C CNN
+F 1 "GND" H 5405 777 50  0000 C CNN
+F 2 "" H 5400 950 50  0001 C CNN
+F 3 "" H 5400 950 50  0001 C CNN
+	1    5400 950 
+	-1   0    0    1   
+$EndComp
+Text HLabel 5700 950  1    50   Input ~ 0
+HREF
+$Comp
+L power:+1V35 #PWR0169
+U 1 1 5DFE749A
+P 5700 2350
+F 0 "#PWR0169" H 5700 2200 50  0001 C CNN
+F 1 "+1V35" H 5715 2523 50  0000 C CNN
+F 2 "" H 5700 2350 50  0001 C CNN
+F 3 "" H 5700 2350 50  0001 C CNN
+	1    5700 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0170
+U 1 1 5DFE74A0
+P 5600 950
+F 0 "#PWR0170" H 5600 800 50  0001 C CNN
+F 1 "+3.3V" H 5615 1123 50  0000 C CNN
+F 2 "" H 5600 950 50  0001 C CNN
+F 3 "" H 5600 950 50  0001 C CNN
+	1    5600 950 
+	1    0    0    -1  
+$EndComp
+Text HLabel 5600 2350 3    50   Input ~ 0
+Y9
+Text HLabel 5500 950  1    50   Input ~ 0
+XCLK
+Text HLabel 5500 2350 3    50   Input ~ 0
+Y8
+Text HLabel 5800 2350 3    50   Input ~ 0
+PDWN
+Text HLabel 5800 950  1    50   Input ~ 0
+VSYNC
+Text HLabel 5900 2350 3    50   Input ~ 0
+RESET
+Text HLabel 5900 950  1    50   Input ~ 0
+SCL
+$Comp
+L power:+2V8 #PWR0171
+U 1 1 5DFE74B9
+P 6000 2350
+F 0 "#PWR0171" H 6000 2200 50  0001 C CNN
+F 1 "+2V8" H 6015 2523 50  0000 C CNN
+F 2 "" H 6000 2350 50  0001 C CNN
+F 3 "" H 6000 2350 50  0001 C CNN
+	1    6000 2350
+	-1   0    0    1   
+$EndComp
+Text HLabel 6000 950  1    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0172
+U 1 1 5DFE74C0
+P 6100 2350
+F 0 "#PWR0172" H 6100 2100 50  0001 C CNN
+F 1 "GND" H 6105 2177 50  0000 C CNN
+F 2 "" H 6100 2350 50  0001 C CNN
+F 3 "" H 6100 2350 50  0001 C CNN
+	1    6100 2350
+	1    0    0    -1  
+$EndComp
+Text HLabel 5400 2350 3    50   Input ~ 0
+Y7
+Text HLabel 5300 950  1    50   Input ~ 0
+PCKL
+Text HLabel 5300 2350 3    50   Input ~ 0
+Y6
+Text HLabel 5200 950  1    50   Input ~ 0
+Y2
+Text HLabel 5200 2350 3    50   Input ~ 0
+Y5
+Text HLabel 5100 950  1    50   Input ~ 0
+Y3
+Text HLabel 5100 2350 3    50   Input ~ 0
+Y4
+$Comp
+L 62674-241121ALF:62674-241121ALF U9
+U 1 1 5DFB2785
+P 5400 1650
+F 0 "U9" V 5446 717 50  0000 R CNN
+F 1 "62674-241121ALF" V 5355 717 50  0000 R CNN
+F 2 "ffc:FCI_62674-241121ALF" H 5400 1650 50  0001 L BNN
+F 3 "62674-241121ALF" H 5400 1650 50  0001 L BNN
+F 4 "03M2162" H 5400 1650 50  0001 L BNN "Field4"
+F 5 "1830630" H 5400 1650 50  0001 L BNN "Field5"
+F 6 "FCI" H 5400 1650 50  0001 L BNN "Field6"
+F 7 "CONN-24POS" H 5400 1650 50  0001 L BNN "Field7"
+	1    5400 1650
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5000 950 
 $EndSCHEMATC
