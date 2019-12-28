@@ -136,17 +136,6 @@ Text HLabel 6850 3300 0    50   Input ~ 0
 SDA
 Text HLabel 6850 3500 0    50   Input ~ 0
 SCL
-$Comp
-L Sensor_Motion:LIS2DH U4
-U 1 1 5DEDAC08
-P 7250 3400
-F 0 "U4" H 7794 3446 50  0000 L CNN
-F 1 "LIS2DH" H 7794 3355 50  0000 L CNN
-F 2 "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y" H 7250 2800 50  0001 C CNN
-F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf" H 6900 3400 50  0001 C CNN
-	1    7250 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7350 2900 7300 2900
 Connection ~ 7300 2900
@@ -240,6 +229,17 @@ F 1 "+3.3V" H 5715 2723 50  0000 C CNN
 F 2 "" H 5700 2550 50  0001 C CNN
 F 3 "" H 5700 2550 50  0001 C CNN
 	1    5700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Motion:LIS2DH U4
+U 1 1 5DEDAC08
+P 7250 3400
+F 0 "U4" H 7794 3446 50  0000 L CNN
+F 1 "LIS2DH" H 7794 3355 50  0000 L CNN
+F 2 "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y" H 7250 2800 50  0001 C CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf" H 6900 3400 50  0001 C CNN
+	1    7250 3400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
