@@ -1,0 +1,74 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP-PSRAM:ESP-PSRAM64 U10
+U 1 1 5E23D760
+P 5800 3950
+F 0 "U10" H 5775 4325 50  0000 C CNN
+F 1 "ESP-PSRAM64" H 5775 4234 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 5700 3950 50  0001 C CNN
+F 3 "" H 5700 3950 50  0001 C CNN
+	1    5800 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 5450 3800 0    50   Input ~ 0
+SD3
+Text HLabel 5450 3900 0    50   Input ~ 0
+SIO1
+Text HLabel 5450 4000 0    50   Input ~ 0
+SIO2
+$Comp
+L power:GND #PWR0192
+U 1 1 5E23DDD5
+P 5450 4100
+F 0 "#PWR0192" H 5450 3850 50  0001 C CNN
+F 1 "GND" H 5455 3927 50  0000 C CNN
+F 2 "" H 5450 4100 50  0001 C CNN
+F 3 "" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5E23DE97
+P 6250 3800
+F 0 "C22" V 5998 3800 50  0000 C CNN
+F 1 "0.1uF" V 6089 3800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6288 3650 50  0001 C CNN
+F 3 "~" H 6250 3800 50  0001 C CNN
+	1    6250 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0193
+U 1 1 5E23E78B
+P 6400 3800
+F 0 "#PWR0193" H 6400 3550 50  0001 C CNN
+F 1 "GND" V 6405 3672 50  0000 R CNN
+F 2 "" H 6400 3800 50  0001 C CNN
+F 3 "" H 6400 3800 50  0001 C CNN
+	1    6400 3800
+	0    -1   -1   0   
+$EndComp
+Text HLabel 6100 3900 2    50   Input ~ 0
+SIO3
+Text HLabel 6100 4000 2    50   Input ~ 0
+SCK
+Text HLabel 6100 4100 2    50   Input ~ 0
+SIO0
+Text GLabel 6100 3800 1    50   Input ~ 0
+VDD_SDIO
+$EndSCHEMATC

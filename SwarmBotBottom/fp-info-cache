@@ -1,4 +1,11 @@
-16741114573840132
+16752193884720779
+01550900M
+0154.250DR
+0154.250DR
+Undefined or Miscellaneous
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49986,6 +49993,13 @@ solder jumper open
 0
 5
 3
+KLJ-5030
+KLJ-5030
+
+
+0
+3
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -51092,6 +51106,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM25145
+LM25145RGYR
+
+
+0
+21
+21
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -52877,6 +52898,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PAC1934T-I_JQ
+QFN65P400X400X55-17N-D
+16 LEAD UTPQFP (JQ) 4x4x0.5
+Power Supply
+0
+17
+17
 PCA9570GMH
 PCA9570GMH
 XQFN8 (SOT902-2)
@@ -73660,6 +73688,13 @@ transformer flyback
 0
 10
 10
+VEML6030
+VEML6030
+VEML6030-3
+Integrated Circuit
+0
+6
+6
 VEML6040A3OG
 VEML6040A3OG
 VEML6040A3OG
@@ -74437,6 +74472,13 @@ varistor SIOV
 0
 2
 2
+XT30PB
+XT30PB
+XT30PB-3
+Connector
+0
+2
+2
 ffc
 FCI_62674-241121ALF
 
@@ -74444,3 +74486,10 @@ FCI_62674-241121ALF
 0
 28
 28
+footprints
+ESP32-D0WD
+
+
+0
+49
+49

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ESP32-PICO-D4"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-08-27-16:18:10)
+    (mountForm default
+        (footprintRef "ESP32-PICO-D4_1")
+        (spec "System")
+    )
+)

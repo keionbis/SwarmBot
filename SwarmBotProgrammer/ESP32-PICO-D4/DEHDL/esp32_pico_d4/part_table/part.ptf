@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESP32_PICO_D4'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Espressif", "ESP32-PICO-D4" (!) = "", "ESP32-PICO-D4_1", "Other", "356-ESP32-PICO-D4", "", "", "", "ESP32-PICO-D4 module", "http://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf"
+END_PART
+
+END.

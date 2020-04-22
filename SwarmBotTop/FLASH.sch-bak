@@ -1,0 +1,61 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5100 3550 0    50   Input ~ 0
+IO16
+Text HLabel 5100 3650 0    50   Input ~ 0
+IO17
+Text HLabel 5100 3750 0    50   Input ~ 0
+SD_DATA_0
+$Comp
+L power:GND #PWR0195
+U 1 1 5E238E4F
+P 5100 3850
+F 0 "#PWR0195" H 5100 3600 50  0001 C CNN
+F 1 "GND" H 5105 3677 50  0000 C CNN
+F 2 "" H 5100 3850 50  0001 C CNN
+F 3 "" H 5100 3850 50  0001 C CNN
+	1    5100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0196
+U 1 1 5E238F3B
+P 5700 3550
+F 0 "#PWR0196" H 5700 3400 50  0001 C CNN
+F 1 "+3.3V" V 5715 3678 50  0000 L CNN
+F 2 "" H 5700 3550 50  0001 C CNN
+F 3 "" H 5700 3550 50  0001 C CNN
+	1    5700 3550
+	0    1    1    0   
+$EndComp
+Text HLabel 5700 3650 2    50   Input ~ 0
+SD_CMD
+Text HLabel 5700 3750 2    50   Input ~ 0
+SD_CLK
+Text HLabel 5700 3850 2    50   Input ~ 0
+SD_DATA_1
+$Comp
+L XM25QH32B:XM25QH32B U11
+U 1 1 5E2777D5
+P 5400 3700
+F 0 "U11" H 5400 4075 50  0000 C CNN
+F 1 "XM25QH32B" H 5400 3984 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" H 5350 3550 50  0001 C CNN
+F 3 "" H 5350 3550 50  0001 C CNN
+	1    5400 3700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
