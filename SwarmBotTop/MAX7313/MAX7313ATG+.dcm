@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX7313ATG+
+D MAXIM INTEGRATED PRODUCTS - MAX7313ATG+ - I/O EXPANDER, I2C, 16PORT, TQFN-24
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX7313.pdf
+$ENDCMP
+#
+#End Doc Library
